@@ -46,6 +46,6 @@ Engine.update(engine);
 function keyPressed(){
 	if(keyCode === UP_ARROW){
 		console.log(ball1);
-		Matter.Body.applyForce(ball1.body, ball1.body.position,{x : 15, y : -15});
+		Matter.Body.applyForce(ball1.body, ball1.body.position,{x : 50, y : -50});
 	}
 }
